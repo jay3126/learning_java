@@ -32,6 +32,15 @@ public class StringDemo {
 		stringAns = string1.concat(string2);
 		System.out.println("\nConcatenated string is: " + stringAns);
 
+		System.out.println("<-------------- Creating formating strings ------------------>");
+		String fs;
+		String stringVar = "changu mangui";
+		double floatVar = 34343434.44544;
+		int intVar = 21;
+		fs = String.format("The value of float is " + "%f, while the value of integer is " +
+							"%d and the string is " + "%s", floatVar, intVar, stringVar);
+		System.out.println(fs);
+
 	}
 
 }
