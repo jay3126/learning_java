@@ -133,15 +133,15 @@ public class Loop {
 			x++;
 		}
 
-		System.out.println("\nCurrent value of x: " + x + "\n");
+/*		System.out.println("\nCurrent value of x: " + x + "\n");
 		System.out.println("\n<---------------- Continue keyword with Do-While Loop ------------------>");
 		do{
-			if(x > 150){
+			if(x > 140){
 				continue;
 			}
 			System.out.println("Value is: " + x + "\n");
 			x++;
-		}while(x > 131);
+		}while(x >= 130); */
 	}
 
 }
