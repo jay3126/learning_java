@@ -32,7 +32,7 @@ public class StringDemo {
 		stringAns = string1.concat(string2);
 		System.out.println("\nConcatenated string is: " + stringAns);
 
-		System.out.println("<-------------- Creating formating strings ------------------>");
+		System.out.println("\n<-------------- Creating formating strings ------------------>");
 		String fs;
 		String stringVar = "changu mangui";
 		double floatVar = 34343434.44544;
@@ -41,6 +41,9 @@ public class StringDemo {
 							"%d and the string is " + "%s", floatVar, intVar, stringVar);
 		System.out.println(fs);
 
+		System.out.println("\n<------------- Character at index ----------->");
+		char stringAt = string1.charAt(5);
+		System.out.println(stringAt);
 	}
 
 }
