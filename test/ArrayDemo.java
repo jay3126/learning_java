@@ -3,6 +3,7 @@
  */
 package test;
 
+// for getting the sort function to work with double array.
 import java.util.Arrays;
 
 /**
