@@ -44,6 +44,30 @@ public class StringDemo {
 		System.out.println("\n<------------- Character at index ----------->");
 		char stringAt = string1.charAt(5);
 		System.out.println(stringAt);
+
+		System.out.println("<\n------------- Trim function ------------->");
+		String Str = new String("     This is test string.     ");
+		System.out.println(Str.trim());
+
+		System.out.println("<\n----------------- Upper Case & Lower case string methods -------------->");
+		String Str1 = new String("this Is a Chungi lAl...");
+		String strUpper = Str1.toUpperCase();
+		String strLower = Str1.toLowerCase();
+		System.out.println("Upper case string: " + strUpper);
+		System.out.println("Lower case string: " + strLower);
+
+		System.out.println("<\n------------ Splitting of strings ----------------->");
+		String str2 = new String("This is-Core Java-Learning");
+		for(String strRetVal: str2.split("-", 4)){
+			System.out.println(strRetVal);
+		}
+		
+
+		System.out.println("<\n------------ String Length ---------------->");
+		String str3 = new String("This is Core Java tutorial");
+		int strLength = str3.length();
+		System.out.println("Length of String is: " + strLength);
+		
 	}
 
 }
