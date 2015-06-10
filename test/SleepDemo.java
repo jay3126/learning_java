@@ -28,9 +28,25 @@ public class SleepDemo {
 			Thread.sleep(5*60*20);
 			System.out.println(new Date() + "\n");
 		}catch (Exception e){
-			System.out.println("Exception occured");
+			System.out.println("\nException occured");
 		}
 
+		SleepDemo sd = new SleepDemo();
+		sd.timeDiff();
+	}
+
+	public void timeDiff(){
+		try{
+			long start = System.currentTimeMillis();
+			System.out.println(new Date());
+			Thread.sleep(5*60*10);
+			System.out.println(new Date());
+			long end = System.currentTimeMillis();
+			long diff1 = end - start;
+			System.out.println("\nDifferene in time is: " + diff1);
+		}catch (Exception e){
+			System.out.println("\nException occured.");
+		}
 	}
 
 }
